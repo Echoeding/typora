@@ -59,7 +59,7 @@ git checkout name		//切换分支
 ![image-20230608203126110](git.assets/image-20230608203126110.png)
 
 ```
-git merge --no-off name		//合并分支
+git merge --no-ff name		//合并分支
 ```
 
 ```
