@@ -36,8 +36,10 @@ git log -p README.md		//查看指定文件提交日志前后的差别，按住q�
 
 ```
 git diff			//查看当前工作树与暂存区的区别，如果未使用add命令，则显示与最新提交的区别
-git diff HEAD		//查看工作树和最新提交的区别
+git diff HEAD		//查看工作树和最新提交的区别。
 ```
+
+![image-20230608202726999](git.assets/image-20230608202726999.png)
 
 ## 分支
 
