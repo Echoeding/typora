@@ -56,7 +56,7 @@ git branch name			//创建分支
 git checkout name		//切换分支
 ```
 
-![image-20230608162820081](git.assets/image-20230608162820081.png)
+![image-20230608203126110](git.assets/image-20230608203126110.png)
 
 ```
 git merge --no-off name		//合并分支
