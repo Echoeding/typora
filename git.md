@@ -83,7 +83,7 @@ git reset --hard 特定节点的哈希值	//可以回溯到特定节点
 git reflog			//查看当前仓库执行过的操作的日志，与git log不同
 ```
 
-![image-20230608165802122](git.assets/image-20230608165802122.png)
+![image-20230608204710166](git.assets/image-20230608204710166.png)
 
 ```
 git checkout master
