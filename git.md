@@ -9,26 +9,30 @@ git status		//查看仓库的状态
 touch README.md	//创建.md文件，未加入暂存区，状态如下(git add)
 ```
 
-![image-20230608140344416](git.assets/image-20230608140344416.png)
-
 ![image-20230608201308241](git.assets/image-20230608201308241.png)
 
 ```
 git add README.md	//加入暂存区
 ```
 
+![image-20230608201552790](git.assets/image-20230608201552790.png)
+
 ```
 git commit -m "add my comment"	//可以将暂存区的文件保存到仓库的历史记录中
 ```
 
-![image-20230608143934112](git.assets/image-20230608143934112.png)
+![image-20230608201805433](git.assets/image-20230608201805433.png)
 
 ```
 git log						//查看仓库提交的日志，只能查看以当前节点为重点历史
 git log --pretty=short		//查看简述信息
 git log README.md			//查看指定文件日志
-git log -p README.md		//查看指定文件提交日志前后的差别
+git log -p README.md		//查看指定文件提交日志前后的差别，按住q退出
 ```
+
+![image-20230608201729908](git.assets/image-20230608201729908.png)
+
+![image-20230608202119343](git.assets/image-20230608202119343.png)
 
 ```
 git diff			//查看当前工作树与暂存区的区别，如果未使用add命令，则显示与最新提交的区别
