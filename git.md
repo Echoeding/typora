@@ -59,7 +59,7 @@ git checkout name		//切换分支
 ![image-20230608203126110](git.assets/image-20230608203126110.png)
 
 ```
-git merge --no-ff name		//合并分支
+git merge --no-ff name		//合并分支，先切换到主分支，再合并从分支
 ```
 
 ```
@@ -67,7 +67,7 @@ git log --graph				//以图表形式查看分支
 							//图中哈希值可以用来回溯
 ```
 
-![image-20230608164025693](git.assets/image-20230608164025693.png)
+![image-20230608204417097](git.assets/image-20230608204417097.png)
 
 ## 回溯
 
@@ -80,7 +80,7 @@ git reset --hard 特定节点的哈希值	//可以回溯到特定节点
 > 当前在Z，且未产生分支B，需要先回溯到X，产生分支B，并推进历史到Y，进而合并B分支
 
 ```
-git relog			//查看当前仓库执行过的操作的日志，与git log不同
+git reflog			//查看当前仓库执行过的操作的日志，与git log不同
 ```
 
 ![image-20230608165802122](git.assets/image-20230608165802122.png)
