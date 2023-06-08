@@ -112,6 +112,8 @@ git push -u origin frature_D	//推送到origin的D分支
 git push						//后续增加只需要直接push
 ```
 
+![image-20230608205908622](git.assets/image-20230608205908622.png)
+
 ------
 
 ```
